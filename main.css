@@ -57,3 +57,24 @@ body {
     font-weight: 200;
     font-size: 3em;
 }
+
+/* ===== Media Queries ==== */
+@media all and (min-width: 990px) {
+
+    .photos img,
+    .text {
+
+        display: inline-block;
+        width: 50%;
+    }
+
+    .text {
+        float: left;
+    }
+
+    .photos img {
+        height: 100vh;
+        vertical-align: top;
+        float: right;
+    }
+}
