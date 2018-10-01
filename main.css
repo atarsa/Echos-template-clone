@@ -1,0 +1,29 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+/* ===== Navigation ========= */
+.navbar {
+    position: fixed;
+    height: 5em;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.logo {
+    max-width: 130px;
+    margin: 2em;
+}
+
+.nav-content {
+    float: right;
+}
+
+.nav-content li {
+    display: inline;
+    margin: 1.5em 0.5em;
+    font-size: 1.5em;
+}
