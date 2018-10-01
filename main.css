@@ -7,6 +7,25 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
+/* ===== Typography ========= */
+h1 {
+    font-weight: 200;
+    font-size: 3.5em;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 3em;
+
+}
+
+p,
+li {
+    font-size: 1.7em;
+    line-height: 1.8em;
+    color: rgb(95, 94, 94);
+}
+
 /* ===== Navigation ========= */
 .navbar {
     position: fixed;
@@ -56,13 +75,42 @@ body {
     top: 50%;
     text-align: center;
 
-    font-weight: 200;
-    font-size: 3em;
+
+}
+
+
+
+/* ===== About Page ========== */
+
+
+#about {
+    padding: 150px 10vw;
+}
+
+#about .container {
+    width: 80vw;
+
+}
+
+#about .container img {
+    width: 100%;
+    margin: 6.5em 0;
+}
+
+h2+p {
+    margin-bottom: 4em;
+
+}
+
+.clients {
+    margin-left: -4em;
+    list-style-type: none;
 }
 
 /* ===== Media Queries ==== */
 @media all and (min-width: 990px) {
 
+    /* === HomePage ==== */
     .photos img,
     .text {
 
