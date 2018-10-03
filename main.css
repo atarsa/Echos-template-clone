@@ -109,6 +109,30 @@ h2+p {
     list-style-type: none;
 }
 
+/* ==== Portfolio ==== */
+#portfolio .container::before,
+#portfolio .container::after {
+    content: " ";
+    display: block;
+    margin-bottom: 20em;
+}
+
+
+#portfolio .container {
+    max-width: 1140px;
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#portfolio .container img {
+    width: 100%;
+    height: 260px;
+    padding: 1em 0;
+    object-fit: cover;
+}
+
 /* ===== Media Queries ==== */
 @media all and (min-width: 990px) {
 
@@ -166,5 +190,16 @@ h2+p {
     .clients {
         float: left;
         width: 33.3%;
+
+    }
+
+    /* ==== Portfolio page ==== */
+    #portfolio .container {
+        width: 90vw;
+    }
+
+    #portfolio .container img {
+        width: 30%;
+        padding: 1em 10px;
 
     }
