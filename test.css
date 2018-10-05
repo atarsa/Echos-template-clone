@@ -3,10 +3,9 @@
 }
 
 .hamburger {
-    display: inline-block;
-    position: relative;
-    top: 40px;
-    /* right: 20px; */
+    /* position: relative;
+    top: 8px; */
+    float: right;
     /* margin: 0 auto; */
     width: 50px;
     height: 50px;
@@ -16,17 +15,16 @@
 .bar-1,
 .bar-2,
 .bar-3 {
-
-    width: 80px;
-    height: 10px;
+    width: 35px;
+    height: 5px;
     margin: 5px 0;
-    background-color: brown;
-    border-radius: 10px;
+    background-color: rgb(83, 83, 83);
+    border-radius: 2px;
 
 }
 
 .change .bar-1 {
-    transform: rotate(45deg) translate(20px, 3px);
+    transform: rotate(-45deg) translate(-9px, 5px);
 }
 
 .change .bar-2 {
@@ -34,7 +32,7 @@
 }
 
 .change .bar-3 {
-    transform: rotate(-45deg) translate(10px, -3px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .show {
@@ -48,7 +46,7 @@
 
 #menu li {
     display: block;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     background-color: red;
     border: 1px solid black;
     padding: 1em;
