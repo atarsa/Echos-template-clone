@@ -38,6 +38,10 @@ li {
 
 }
 
+.nav-content .hidden {
+    display: none;
+}
+
 .logo {
     max-width: 130px;
     margin: 2em;
@@ -65,8 +69,8 @@ li {
 .photos img {
     position: relative;
     display: block;
-    max-width: 100vw;
-    max-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     object-fit: cover;
 }
 
@@ -79,9 +83,7 @@ li {
 }
 
 
-
 /* ===== About Page ========== */
-
 
 #about {
 

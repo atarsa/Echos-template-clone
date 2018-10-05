@@ -1,0 +1,59 @@
+.nav-content {
+    visibility: hidden;
+}
+
+.hamburger {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    /* right: 20px; */
+    /* margin: 0 auto; */
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.bar-1,
+.bar-2,
+.bar-3 {
+
+    width: 80px;
+    height: 10px;
+    margin: 5px 0;
+    background-color: brown;
+    border-radius: 10px;
+
+}
+
+.change .bar-1 {
+    transform: rotate(45deg) translate(20px, 3px);
+}
+
+.change .bar-2 {
+    opacity: 0;
+}
+
+.change .bar-3 {
+    transform: rotate(-45deg) translate(10px, -3px);
+}
+
+.show {
+    visibility: visible;
+    display: block;
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#menu li {
+    display: block;
+    /* box-sizing: border-box; */
+    background-color: red;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 50vw;
+    height: 10vh;
+
+}

@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="test.css">
+</head>
+<nav class="navbar">
+    <!-- logo -->
+    <a href="index.html">
+        <img class="logo" src="img/logo.png" alt="Echos logo">
+    </a>
+    <!-- hamburger menu button -->
+    <div id="menu" class="nav-content ">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+
+        </ul>
+    </div>
+    <div class="hamburger" onclick="showMenu(this)">
+        <div class="bar-1">1</div>
+        <div class="bar-2">2</div>
+        <div class="bar-3">3</div>
+    </div>
+
+</nav>
+
+<body>
+    <script>
+        function showMenu(x) {
+            x.classList.toggle("change");
+
+            document.getElementById("menu").classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
