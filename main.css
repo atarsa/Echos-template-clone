@@ -221,6 +221,11 @@ h2+p {
     object-fit: cover;
 }
 
+/* Scale animation to make img's bigger without js */
+.img-link:hover {
+    transform: scale(1.1)
+}
+
 /* ===== Media Queries ==== */
 @media all and (min-width: 990px) {
 
